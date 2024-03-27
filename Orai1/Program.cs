@@ -3,10 +3,10 @@
 
 class Program
 {
+
     static void Main()
     {
-
-
+        var lines = File.ReadAllLines("C:/Adat/3.csv").Skip(1);
 
 
 
